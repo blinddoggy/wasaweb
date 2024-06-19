@@ -57,9 +57,7 @@ const FrameComponent3 = ({ className = "" }) => {
               src="/img-0161-1@2x.png"
             />
             <div className="w-[510px] flex flex-col items-start justify-start max-w-full z-[1] text-gray-200">
-              <b className="self-stretch relative leading-[24px] mq450:text-base mq450:leading-[19px]">
-                about
-              </b>
+             
               <h1 className="m-0 self-stretch relative text-61xl leading-[80px] text-green font-inherit mq800:text-21xl mq800:leading-[48px] mq450:text-5xl mq450:leading-[32px]">
                 <b>wasaa</b>
                 <span className="font-medium">{` `}</span>
