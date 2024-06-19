@@ -1,3 +1,4 @@
+
 import FrameComponent3 from "../components/frame-component3";
 import FeatureImage from "../components/feature-image";
 import FrameComponent from "../components/frame-component";
@@ -120,7 +121,9 @@ const Desktop = () => {
                 className="h-20 w-20 relative rounded-3xl overflow-hidden shrink-0 z-[2]"
                 loading="lazy"
                 alt=""
-                src="/metamask.svg"
+                src
+
+="/metamask.svg"
               />
             </div>
             <div className="w-[140px] relative leading-[40px] font-medium inline-block z-[2] mq450:text-base mq450:leading-[32px]">
@@ -139,6 +142,7 @@ const Desktop = () => {
             <div className="flex flex-row items-start justify-start py-0 px-[30px]">
               <img
                 className="h-20 w-20 relative overflow-hidden shrink-0 z-[2]"
+                loading="lazy"
                 alt=""
                 src="/coin98.svg"
               />
@@ -175,7 +179,19 @@ const Desktop = () => {
             alt=""
             src="/textura-11@2x.png"
           />
-          
+          <div className="mt-[-95px] ml-[-95px] w-[400px] flex flex-col items-center justify-start py-[135px] px-5 box-border relative gap-[10px] shrink-0 [debug_commit:0448091] max-w-[193%] mq450:pt-[25.67px] mq450:pb-[88px] mq450:box-border">
+            <div className="w-full h-full absolute !m-[0] top-[0px] right-[0px] bottom-[0px] left-[0px] bg-gray-100 z-[1]" />
+            <div className="flex flex-row items-start justify-start py-0 px-[30px]">
+              <img
+                className="h-20 w-20 relative rounded-3xl overflow-hidden shrink-0 z-[2]"
+                loading="lazy"
+                alt=""
+                src="/brave.svg"
+              />
+            </div>
+            <div className="w-[140px] relative leading-[40px] font-medium inline-block z-[2] mq450:text-base mq450:leading-[32px]">
+              Brave
+            </div>
           </div>
         </div>
         <div className="h-[210px] w-[210px] rounded-21xl box-border overflow-hidden shrink-0 flex flex-row items-start justify-start relative ml-[-5.7px] border-[1px] border-solid border-gray-300">
@@ -222,7 +238,9 @@ const Desktop = () => {
           <img
             className="h-[2000px] w-[2000px] absolute !m-[0] top-[calc(50%_-_1000px)] left-[calc(50%_-_1000px)] object-cover z-[1]"
             alt=""
-            src="/textura-11@2x.png"
+            src="/
+
+textura-11@2x.png"
           />
           <div className="mt-[-95px] ml-[-95px] w-[400px] flex flex-col items-center justify-start py-[135px] px-5 box-border relative gap-[10px] shrink-0 [debug_commit:0448091] max-w-[193%] mq450:pt-[25.67px] mq450:pb-[88px] mq450:box-border">
             <div className="w-full h-full absolute !m-[0] top-[0px] right-[0px] bottom-[0px] left-[0px] bg-gray-100 z-[1]" />
@@ -333,7 +351,9 @@ const Desktop = () => {
                 src="/binance-wallet.svg"
               />
             </div>
-            <div className="w-[140px] relative leading-[40px] font-medium inline-block z-[2] mq450:text-base mq450:leading-[32px]">
+            <div className="w-[
+
+140px] relative leading-[40px] font-medium inline-block z-[2] mq450:text-base mq450:leading-[32px]">
               Binance
             </div>
           </div>
